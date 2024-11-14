@@ -1,15 +1,16 @@
 import React from 'react';
+import './navbar.css'; // Import the CSS file
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-600 p-4 text-white flex justify-between items-center">
-      <h1 className="text-xl font-bold">EcoFarm Network</h1>
-      <ul className="flex space-x-4">
-        <li><a href="#" className="hover:underline">Home</a></li>
-        <li><a href="#" className="hover:underline">Job Matching</a></li>
-        <li><a href="#" className="hover:underline">Resource Sharing</a></li>
-        <li><a href="#" className="hover:underline">Marketplace</a></li>
-        <li><a href="#" className="hover:underline">Education</a></li>
+    <nav className="navbar"> {/* Apply navbar class for overall styling */}
+      <h1>EcoFarm Network</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Job Matching</a></li>
+        <li><a href="#">Resource Sharing</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Education</a></li>
       </ul>
     </nav>
   );

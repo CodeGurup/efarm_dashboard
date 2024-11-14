@@ -1,0 +1,43 @@
+/* Navbar.css */
+
+/* Overall Navbar Styling */
+.navbar {
+    background-color: #065f46; /* Dark green background */
+    padding: 1rem 2rem; /* Add padding to the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Navbar Title Styling */
+  .navbar h1 {
+    font-size: 1.25rem; /* Slightly larger text */
+    font-weight: bold;
+  }
+  
+  /* Navbar Links Styling */
+  .navbar ul {
+    display: flex;
+    gap: 1.5rem; /* Space between the list items */
+  }
+  
+  .navbar li {
+    list-style-type: none; /* Remove bullet points */
+  }
+  
+  .navbar a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    font-weight: medium;
+    transition: color 0.3s, border-bottom 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover Effects */
+  .navbar a:hover {
+    color: #10b981; /* Bright green color on hover */
+    border-bottom: 2px solid #10b981; /* Add a green underline on hover */
+  }
+  
